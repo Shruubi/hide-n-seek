@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class ESTBeaconManager;
+
 @interface ViewController : UIViewController
 
 

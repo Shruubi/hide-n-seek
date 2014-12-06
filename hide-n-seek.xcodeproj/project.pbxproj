@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E46291E31A33361600605CFD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46291E21A33361600605CFD /* CoreLocation.framework */; };
+		E46291E51A33361D00605CFD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46291E41A33361D00605CFD /* CoreBluetooth.framework */; };
+		E46291E71A33362700605CFD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46291E61A33362700605CFD /* SystemConfiguration.framework */; };
+		E46291E91A33363000605CFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46291E81A33363000605CFD /* UIKit.framework */; };
+		E46291EB1A33363F00605CFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46291EA1A33363F00605CFD /* Foundation.framework */; };
 		E47E62701A332804001A1E9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E47E626F1A332804001A1E9A /* main.m */; };
 		E47E62731A332804001A1E9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E47E62721A332804001A1E9A /* AppDelegate.m */; };
 		E47E62761A332804001A1E9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E47E62751A332804001A1E9A /* ViewController.m */; };
 		E47E62791A332804001A1E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47E62771A332804001A1E9A /* Main.storyboard */; };
 		E47E627B1A332804001A1E9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47E627A1A332804001A1E9A /* Images.xcassets */; };
-		E47E627E1A332804001A1E9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E47E627C1A332804001A1E9A /* LaunchScreen.xib */; };
 		E47E628A1A332805001A1E9A /* hide_n_seekTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E47E62891A332805001A1E9A /* hide_n_seekTests.m */; };
+		F91430E5B22C39AF555F7589 /* libPods-hide-n-seek.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEEA4455C2C613336858967 /* libPods-hide-n-seek.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B13DE23F87BCEFA415316E2 /* Pods-hide-n-seek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hide-n-seek.release.xcconfig"; path = "Pods/Target Support Files/Pods-hide-n-seek/Pods-hide-n-seek.release.xcconfig"; sourceTree = "<group>"; };
+		E46291E21A33361600605CFD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E46291E41A33361D00605CFD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		E46291E61A33362700605CFD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E46291E81A33363000605CFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E46291EA1A33363F00605CFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E47E626A1A332804001A1E9A /* hide-n-seek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hide-n-seek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47E626E1A332804001A1E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E47E626F1A332804001A1E9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,10 +47,11 @@
 		E47E62751A332804001A1E9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E47E62781A332804001A1E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E47E627A1A332804001A1E9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E47E627D1A332804001A1E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E47E62831A332804001A1E9A /* hide-n-seekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hide-n-seekTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47E62881A332804001A1E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E47E62891A332805001A1E9A /* hide_n_seekTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hide_n_seekTests.m; sourceTree = "<group>"; };
+		F9EB17FE1BCD6CACF2BD1F8D /* Pods-hide-n-seek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hide-n-seek.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hide-n-seek/Pods-hide-n-seek.debug.xcconfig"; sourceTree = "<group>"; };
+		FFEEA4455C2C613336858967 /* libPods-hide-n-seek.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hide-n-seek.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E46291E31A33361600605CFD /* CoreLocation.framework in Frameworks */,
+				E46291E51A33361D00605CFD /* CoreBluetooth.framework in Frameworks */,
+				E46291E71A33362700605CFD /* SystemConfiguration.framework in Frameworks */,
+				F91430E5B22C39AF555F7589 /* libPods-hide-n-seek.a in Frameworks */,
+				E46291E91A33363000605CFD /* UIKit.framework in Frameworks */,
+				E46291EB1A33363F00605CFD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +78,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		309588971504559919495F67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9EB17FE1BCD6CACF2BD1F8D /* Pods-hide-n-seek.debug.xcconfig */,
+				2B13DE23F87BCEFA415316E2 /* Pods-hide-n-seek.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		419DD90824DE4332AA3B05B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E46291EA1A33363F00605CFD /* Foundation.framework */,
+				E46291E81A33363000605CFD /* UIKit.framework */,
+				E46291E61A33362700605CFD /* SystemConfiguration.framework */,
+				E46291E41A33361D00605CFD /* CoreBluetooth.framework */,
+				E46291E21A33361600605CFD /* CoreLocation.framework */,
+				FFEEA4455C2C613336858967 /* libPods-hide-n-seek.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E47E62611A332804001A1E9A = {
 			isa = PBXGroup;
 			children = (
 				E47E626C1A332804001A1E9A /* hide-n-seek */,
 				E47E62861A332804001A1E9A /* hide-n-seekTests */,
 				E47E626B1A332804001A1E9A /* Products */,
+				309588971504559919495F67 /* Pods */,
+				419DD90824DE4332AA3B05B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,7 +129,6 @@
 				E47E62751A332804001A1E9A /* ViewController.m */,
 				E47E62771A332804001A1E9A /* Main.storyboard */,
 				E47E627A1A332804001A1E9A /* Images.xcassets */,
-				E47E627C1A332804001A1E9A /* LaunchScreen.xib */,
 				E47E626D1A332804001A1E9A /* Supporting Files */,
 			);
 			path = "hide-n-seek";
@@ -126,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E47E628D1A332805001A1E9A /* Build configuration list for PBXNativeTarget "hide-n-seek" */;
 			buildPhases = (
+				5DFF3D944F2552C62F4657FF /* Check Pods Manifest.lock */,
 				E47E62661A332804001A1E9A /* Sources */,
 				E47E62671A332804001A1E9A /* Frameworks */,
 				E47E62681A332804001A1E9A /* Resources */,
+				6F63381015AD62B25CF2F757 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +211,7 @@
 				TargetAttributes = {
 					E47E62691A332804001A1E9A = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 8LEZ357CUG;
 					};
 					E47E62821A332804001A1E9A = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -200,7 +244,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E47E62791A332804001A1E9A /* Main.storyboard in Resources */,
-				E47E627E1A332804001A1E9A /* LaunchScreen.xib in Resources */,
 				E47E627B1A332804001A1E9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +256,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DFF3D944F2552C62F4657FF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F63381015AD62B25CF2F757 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hide-n-seek/Pods-hide-n-seek-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E47E62661A332804001A1E9A /* Sources */ = {
@@ -250,14 +326,6 @@
 				E47E62781A332804001A1E9A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E47E627C1A332804001A1E9A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E47E627D1A332804001A1E9A /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -343,9 +411,12 @@
 		};
 		E47E628E1A332805001A1E9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9EB17FE1BCD6CACF2BD1F8D /* Pods-hide-n-seek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "hide-n-seek/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,9 +424,12 @@
 		};
 		E47E628F1A332805001A1E9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B13DE23F87BCEFA415316E2 /* Pods-hide-n-seek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "hide-n-seek/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +488,7 @@
 				E47E628F1A332805001A1E9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E47E62901A332805001A1E9A /* Build configuration list for PBXNativeTarget "hide-n-seekTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +497,7 @@
 				E47E62921A332805001A1E9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
